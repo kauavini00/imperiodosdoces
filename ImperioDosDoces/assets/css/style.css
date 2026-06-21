@@ -1,0 +1,131 @@
+body {
+    background-color: #fff7ff;
+    color: #3b174f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-principal {
+    background-color: #6f2da8;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffd84d !important;
+}
+
+.banner-principal {
+    min-height: 520px;
+    background:
+        linear-gradient(rgba(80, 20, 110, 0.35), rgba(80, 20, 110, 0.35)),
+        url("../img/banner-doceria.png");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-banner {
+    color: #ffd84d;
+    padding: 80px 20px;
+}
+
+.conteudo-banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.conteudo-banner p {
+    font-size: 20px;
+    color: #fff8d6;
+}
+
+.card-doce {
+    border: 2px solid #ead2ff;
+    box-shadow: 0 4px 12px rgba(111, 45, 168, 0.15);
+    transition: 0.3s;
+}
+
+.card-doce:hover {
+    transform: translateY(-5px);
+}
+
+.btn-warning {
+    background-color: #ffd84d;
+    border-color: #ffd84d;
+    color: #3b174f;
+    font-weight: bold;
+}
+
+.btn-outline-primary {
+    border-color: #6f2da8;
+    color: #6f2da8;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6f2da8;
+    border-color: #6f2da8;
+}
+
+.rodape {
+    background-color: #6f2da8;
+    color: #ffd84d;
+}
+
+.coroa-titulo {
+    color: #ffd84d;
+    text-shadow: 2px 2px 4px rgba(59, 23, 79, 0.7);
+    margin-right: 10px;
+}
+
+.logo-coroa-menu {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.logo-coroa-banner {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    margin-right: 12px;
+    filter: drop-shadow(2px 2px 4px rgba(59, 23, 79, 0.7));
+}
+
+.produto-detalhe-imagem {
+    background-color: #f4e4ff;
+    border: 2px solid #ead2ff;
+    border-radius: 12px;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.produto-detalhe-imagem img {
+    max-width: 100%;
+    max-height: 320px;
+    object-fit: contain;
+}
+
+.formulario-contato,
+.caixa-contato {
+    background-color: #ffffff;
+    border: 2px solid #ead2ff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(111, 45, 168, 0.12);
+}
+.imagem-card-doce {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #f4e4ff;
+}
+
+.card-total-pedido {
+    max-width: 420px;
+    border: 2px solid #ead2ff;
+    box-shadow: 0 4px 12px rgba(111, 45, 168, 0.12);
+}
